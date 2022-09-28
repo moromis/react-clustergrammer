@@ -325,4 +325,4 @@ textarea {
 
 ## License
 
-MIT © [hobincar](https://github.com/hobincar)
+MIT © [hobincar](https://github.com/hobincar) and [moromis](https://github.com/moromis)
