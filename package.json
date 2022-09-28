@@ -14,11 +14,10 @@
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "yarn run build",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages -d example/build"
+    "prepare": "yarn run build"
   },
   "dependencies": {
+    "clustergrammer": "^1.19.5",
     "d3": "3.5.17",
     "jquery": "1.11.0",
     "popper.js": "^1.14.3",
@@ -46,7 +45,6 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1",
-    "gh-pages": "^4.0.0",
     "react-scripts": "^1.1.1",
     "rollup": "^0.54.0",
     "rollup-plugin-babel": "^3.0.3",

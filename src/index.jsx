@@ -1,6 +1,6 @@
+import _Clustergrammer from 'clustergrammer';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import _Clustergrammer from './clustergrammer';
 
 // const Clustergrammer = ({
 //   width = 800, height = 500, id, ref, ...props
